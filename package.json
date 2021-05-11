@@ -1,5 +1,6 @@
 {
   "name": "actions-template",
+   "credsStore": "osxkeychain"
   "version": "1.0.0",
   "description": "Learn how to use GitHub Actions!",
   "main": "index.js",
@@ -7,9 +8,7 @@
     "test": "__test__",
     "src": "src"
   },
-  {
-  "credsStore": "osxkeychain"
-},
+ 
   "scripts": {
     "build": "npx webpack --config ./src/webpack.config.js --mode production",
     "dev": "npx webpack --config ./src/webpack.config.js --mode development --watch",
